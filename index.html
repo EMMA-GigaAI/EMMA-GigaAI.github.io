@@ -218,15 +218,34 @@
 
   <h4 class="title">1. Embodied manipulation video generation.</h4>
     <div class="container is-max-desktop">
-        <video preload="auto"poster="" id="tree" autoplay controls muted loop width="12000px" outline="0px"> 
-          <source src="./static/videos/dreamtransfer_res.mp4"
-          type="video/mp4">
-        </video>
-    </div> 
+      <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; text-align: center; margin: 0 auto;">
+        <!-- 视频 1 -->
+        <div style="flex: 1; min-width: 200px;">
+          <video autoplay muted loop controls style="width: 100%; height: auto; display: block;">
+            <source src="./static/videos/dreamtransfer_fold_cloth.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <!-- 视频 2 -->
+        <div style="flex: 1; min-width: 200px;">
+          <video autoplay muted loop controls style="width: 100%; height: auto; display: block;">
+            <source src="./static/videos/dreamtransfer_clean_desk.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <!-- 视频 3 -->
+        <div style="flex: 1; min-width: 200px;">
+          <video autoplay muted loop controls style="width: 100%; height: auto; display: block;">
+            <source src="./static/videos/dreamtransfer_throw_bottle.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
     <br>
     <p style="margin-bottom: 30px;"></p>
 
-    <h4 class="title">2. Real-world deployment of AdaMix-trained policies on "Fold Cloth".</h4>
+  <h4 class="title">2. Real-world deployment of AdaMix-trained policies on "Fold Cloth".</h4>
     <div class="container is-max-desktop">
       <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; text-align: center; margin: 0 auto;">
         <!-- 视频 1 -->
